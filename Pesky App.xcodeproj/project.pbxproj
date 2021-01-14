@@ -11,6 +11,8 @@
 		103F246925B0A8E800918D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F246825B0A8E800918D79 /* ContentView.swift */; };
 		103F246B25B0A8EA00918D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103F246A25B0A8EA00918D79 /* Assets.xcassets */; };
 		103F246E25B0A8EA00918D79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103F246D25B0A8EA00918D79 /* Preview Assets.xcassets */; };
+		103F247B25B0ABF500918D79 /* Arch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F247A25B0ABF500918D79 /* Arch.swift */; };
+		103F247E25B0AC2F00918D79 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F247D25B0AC2F00918D79 /* Gauge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		103F246A25B0A8EA00918D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103F246D25B0A8EA00918D79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		103F246F25B0A8EA00918D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103F247A25B0ABF500918D79 /* Arch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch.swift; sourceTree = "<group>"; };
+		103F247D25B0AC2F00918D79 /* Gauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				103F246625B0A8E800918D79 /* Pesky_AppApp.swift */,
+				103F247A25B0ABF500918D79 /* Arch.swift */,
+				103F247D25B0AC2F00918D79 /* Gauge.swift */,
 				103F246825B0A8E800918D79 /* ContentView.swift */,
 				103F246A25B0A8EA00918D79 /* Assets.xcassets */,
 				103F246F25B0A8EA00918D79 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				103F246925B0A8E800918D79 /* ContentView.swift in Sources */,
+				103F247B25B0ABF500918D79 /* Arch.swift in Sources */,
 				103F246725B0A8E800918D79 /* Pesky_AppApp.swift in Sources */,
+				103F247E25B0AC2F00918D79 /* Gauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

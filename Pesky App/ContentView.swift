@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var favoriteColor = 0
+    let progress =  0.6
+    let total = 30
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Gauge(progress: progress, total: total)
     }
 }
 
